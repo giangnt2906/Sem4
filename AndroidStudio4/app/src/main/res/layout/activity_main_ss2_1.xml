@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="T1808A"
+        android:textColor="#4CAF50"
+        android:background="#FFF6D1"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        />
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:textColor="#fff"
+        android:background="#028AC8"
+        />
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#EF7EA4"
+        android:src="@drawable/webber"
+        android:scaleType="centerCrop"
+        />
+    <EditText
+        android:id="@+id/edUser"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        />
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agree..."
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Male" />
+        <RadioButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Female" />
+    </RadioGroup>
+
+</LinearLayout>
